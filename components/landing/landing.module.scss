@@ -1,13 +1,20 @@
-.landing{
-	background:linear-gradient(0deg, rgba(221,159,65, .25), rgba(0, 0, 0, 0.95)), url('/images/landing.webp');
-	background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: 65% 100%;
+.landing {
+  background: linear-gradient(
+      0deg,
+      rgba(221, 159, 65, 0.25),
+      rgba(0, 0, 0, 0.95)
+    ),
+    url("/images/landing.webp");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 65% 100%;
 }
-.landingHero{
-	font-family: 'Great Vibes', cursive;
+.landingHero {
+  font-family: "GreatVibes";
+  color: white;
 }
-.landingLato{
-	font-family: 'Lato', sans-serif;
+.landingLato {
+  font-family: "lato", sans-serif;
+  color: white;
 }

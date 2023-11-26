@@ -7,12 +7,11 @@
   --background-end-rgb: 255, 255, 255;
 }
 
-*{
+* {
   padding: 0;
   margin: 0;
   font-size: 18px;
-    scroll-behavior: smooth!important;
-
+  scroll-behavior: smooth !important;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -31,4 +30,13 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
+}
+
+@font-face {
+  font-family: "GreatVibes";
+  src: url("/fonts/greatVibes.ttf") format("truetype");
+}
+@font-face {
+  font-family: "lato";
+  src: url("/fonts/lato.ttf") format("truetype");
 }
